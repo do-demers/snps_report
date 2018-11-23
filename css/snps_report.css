@@ -1,0 +1,62 @@
+
+
+#container {
+    /*display: flex; !* or inline-flex *!*/
+    flex-direction: column ;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    /*height: 500px;*/
+}
+
+#tbl_div{
+    /*display: flex; !* or inline-flex *!*/
+    flex-direction: column ;
+    /*align-items: center;*/
+    justify-content: center;
+    align-self: flex-start;
+    /*flex: 0 0 750px;*/
+}
+
+
+#q_div{
+    width:100%
+}
+#sel_div{
+    margin-right: 5px;
+    display: flex; /* or inline-flex */
+    flex-direction: column ;
+    align-items: center;
+    align-self: flex-start;
+    justify-content: center;
+    flex-basis: 20%
+}
+
+select{
+    align-self: left;
+    margin-bottom: 5px;
+    /*width:100%;*/
+}
+
+label{
+    align-self: left;
+    /*width:100%;*/
+}
+
+#sel_dept{
+    /*width:100%;*/
+    /*height: 200px;*/
+}
+
+td:nth-of-type(1) {
+    width: 300px;
+    text-align: left;
+}
+
+
+th, td {
+     text-align: center;
+ }
+
+
+
